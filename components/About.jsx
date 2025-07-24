@@ -2,7 +2,7 @@ import { assets, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
-import { of } from '../.next/server/chunks/ssr/_f9a490._';
+// import { of } from '../.next/server/chunks/ssr/_f9a490._';
 
 const About = ({isDarkMode}) => {
   return (
