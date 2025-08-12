@@ -43,9 +43,9 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >I am an Frontend Developer including knowledge in ML/AI Solution with over a years of professional experiance in the field. 
+                >I am a Frontend Developer including knowledge in ML/AI Solution and IT Support with over a years of professional experience in the field. 
                     Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth. 
-                     I have worked with InfoxIT and Neurabits as a Front-end Developer as well as with Dotskilled as a ML/AI Engineer.</p>
+                     I have worked with InfoxIT as a IT Support Technician and Neurabits as a Front-end Developer as well as with Dotskilled as a ML/AI Engineer.</p>
                 
                 <motion.ul
                 initial={{opacity: 0}}

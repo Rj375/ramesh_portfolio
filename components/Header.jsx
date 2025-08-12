@@ -25,14 +25,14 @@ const Header = () => {
     whileInView={{y: 0, opacity: 1}}
     transition={{duration: 0.8, delay: 0.5}}
     className='text-3xl sm:text-6xl lg:text-[60px] font-Ovo'>
-        Frontend Developer, ML/AI Engineer and Technical Support based in Canberra.</motion.h1>
+        Frontend Developer, ML/AI Engineer and IT Support Technician based in Canberra.</motion.h1>
 
         <motion.p
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        I am a Frontend Developer, ML/AI Engineer and Technical Support from Canberra, Australia with 2 years of experience in multiple companies like InfoxIT, Neurabits and Dotskilled.
+        I am a Frontend Developer, ML/AI Engineer and IT Support Technician from Canberra, Australia with over 2 years of experience in multiple companies like InfoxIT, Neurabits and Dotskilled.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -56,7 +56,7 @@ const Header = () => {
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
-            href="/Ramesh_Giri_Cover_Page.pdf" download 
+            href="/Ramesh_Giri_Cover_Letter.pdf" download 
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
                 my cover letter <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
         </div>
